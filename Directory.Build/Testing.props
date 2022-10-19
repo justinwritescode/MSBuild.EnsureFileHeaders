@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <PackageReferences>@(PackageReference)</PackageReferences>
+    <IsTestProject Condition="$(PackageReferences.Contains('Microsoft.NET.Test.Sdk'))">true</IsTestProject>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Testing_props>imported</Testing_props>
+  </PropertyGroup>
+</Project>

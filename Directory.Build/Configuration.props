@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Default to local configuration if none is specified -->
+    <Configuration Condition="'$(Configuration)' == ''">Local</Configuration>
+  </PropertyGroup>
+</Project>

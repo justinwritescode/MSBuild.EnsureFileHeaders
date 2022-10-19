@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="Microsoft.Build.Utilities.Core" />
+      <PackageReference Include="Microsoft.Build" />
+      <PackageReference Include="System.Text.Json" />
+      <PackageReference Include="System.Xml.XDocument" />
+      <PackageReference Include="JustinWritesCode.ComponentModel" PrivateAssets="all" ExcludeAssets="ContentFiles" />
+      <PackageReference Include="System.ComponentModel.Annotations" />
+      <PackageReference Include="System.ComponentModel" />
+  </ItemGroup>
+  <ItemGroup Label="Global Usings">
+      <Using Include="Microsoft.Build.Framework" />
+      <Using Include="Microsoft.Build.Execution" />
+      <Using Include="Microsoft.Build.Utilities.Task" Alias="MSBTask" />
+      <Using Include="System.Text.RegularExpressions" />
+      <Using Include="System.Text.Json" />
+  </ItemGroup>
+
+  <Target Name="EnsureFileHeaders" DependsOnTargets="GitInfo;Build">
+    <UsingTask TaskName="JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders" AssemblyName="$(OutputPath)$(AssemblyName).dll" />
+    
+    <Error Code="JWC001" Condition="@(Include=>Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
+    <Error Code="JWC002" Condition="'$(SearchRoot)' == ''" Text="You must specify a root directory to start the search from." File="$(MSBuildThisFile)" />
+    <Error Code="JWC003" Condition="'$(License)' == ''" Text="You must specify a license.  It should be one of the following: $([System.String]::Join(', ', [JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders]::ValidLicenseValues))." File="$(MSBuildThisFile)" />
+    <Error Code="JWC004" Condition="@(Author->Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
+
+    <JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders 
+      Include="@(Include)"
+      Exclude="@(Exclude)"
+      Authors="@(Author)"
+      SearchRoot="$(SearchRoot)" />
+  </Target>
+</Project>

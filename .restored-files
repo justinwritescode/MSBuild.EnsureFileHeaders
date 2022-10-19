@@ -1,0 +1,1205 @@
+{
+  "sourceFileInfo": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.restored-files",
+  "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+  "files": [
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/NuGet.config",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/NuGet.config",
+      "fileHash": "831b91678af83c9b6994c1552a3c696244201f5e",
+      "timestamp": "2022-10-16T16:32:46.925796Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.gitignore",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.gitignore",
+      "fileHash": "098d51c37671cfa2df096e8b99b0d15c5e2415a7",
+      "timestamp": "2022-10-16T16:32:46.927998Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/global.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/global.json",
+      "fileHash": "a4ea4362f59345fe63d3d4b725da98619f001cb1",
+      "timestamp": "2022-10-16T16:32:46.928379Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/TestingLocal.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/TestingLocal.props",
+      "fileHash": "19fac1400cbac4bfc52dbfbfbcc516d73d0cbb7a",
+      "timestamp": "2022-10-16T16:32:46.929146Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CustomBeforeAndAfterNoTargets.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CustomBeforeAndAfterNoTargets.props",
+      "fileHash": "6832be739eeb9ccc01f68d32a3da3636e33f1db3",
+      "timestamp": "2022-10-16T16:32:46.929684Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageMetadata.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageMetadata.props",
+      "fileHash": "a455e55610013c255ddcd59e54c565cbde0b4b81",
+      "timestamp": "2022-10-16T16:32:46.930073Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/MinVer.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/MinVer.targets",
+      "fileHash": "a517f8afb9abff29547c8a54ec1320030d000538",
+      "timestamp": "2022-10-16T16:32:46.930439Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Configuration.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Configuration.props",
+      "fileHash": "cf5adb4853d61d9840b4af724d4f0693da790334",
+      "timestamp": "2022-10-16T16:32:46.93091Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageTags.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageTags.props",
+      "fileHash": "5506c678ab15c04f2555c9b794e75f722ce50158",
+      "timestamp": "2022-10-16T16:32:46.931269Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/SlnGen.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/SlnGen.props",
+      "fileHash": "4fb12028a07962ff3e4b588d97a5ff1047dc16e8",
+      "timestamp": "2022-10-16T16:32:46.93165Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageProjectUrl.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageProjectUrl.targets",
+      "fileHash": "81336902a3a56333386db5c1a788dcf6338bfdaf",
+      "timestamp": "2022-10-16T16:32:46.931966Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageReadme.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageReadme.targets",
+      "fileHash": "641eaccc362c34d5ac12283f0818ad60be38f018",
+      "timestamp": "2022-10-16T16:32:46.932288Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CustomBeforeAndAfterCentralPackageVersions.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CustomBeforeAndAfterCentralPackageVersions.props",
+      "fileHash": "47113857e50d6451d9501a8b6fda0325c6a94135",
+      "timestamp": "2022-10-16T16:32:46.932609Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Copyright.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Copyright.targets",
+      "fileHash": "a13ee43b3d4dd28f2584409ab7588410af08f0bf",
+      "timestamp": "2022-10-16T16:32:46.932907Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Authors-Owners.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Authors-Owners.props",
+      "fileHash": "d527daae937c3231249c3964b493de42b739b9cb",
+      "timestamp": "2022-10-16T16:32:46.933329Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CopyFilesAndSymbolsFromPackages.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CopyFilesAndSymbolsFromPackages.props",
+      "fileHash": "0c2d7ce081c5dd2df90821a105edfe6d9fc304de",
+      "timestamp": "2022-10-16T16:32:46.933634Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Authors-Owners.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Authors-Owners.targets",
+      "fileHash": "3e861efbda80e2ebd5642a58f1bdce9ae1320d00",
+      "timestamp": "2022-10-16T16:32:46.933944Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/MinVer.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/MinVer.props",
+      "fileHash": "261fe44bd2cc63354a6106ec850e872d3d344715",
+      "timestamp": "2022-10-16T16:32:46.934287Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Baz.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Baz.props",
+      "fileHash": "14ebeb8b106892d3af63c4ddf9fce609459285fa",
+      "timestamp": "2022-10-16T16:32:46.934594Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CodeDocumentation.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CodeDocumentation.props",
+      "fileHash": "3962146bf39fb3b40436c445995f0fd2ee609cf9",
+      "timestamp": "2022-10-16T16:32:46.934891Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/SlnGen.CustomBefore.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/SlnGen.CustomBefore.targets",
+      "fileHash": "bec731e9d91f79dab26bf2e79ede60b6c2e8530f",
+      "timestamp": "2022-10-16T16:32:46.935216Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/ItemDefinitionGroups.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/ItemDefinitionGroups.props",
+      "fileHash": "ccdcad435895c6004631f752f8a3b3715689e539",
+      "timestamp": "2022-10-16T16:32:46.935561Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NuGetizer.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NuGetizer.props",
+      "fileHash": "9f766910c466ed7ef57d9ac0767a2ec5d8027ca5",
+      "timestamp": "2022-10-16T16:32:46.935856Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NuGetOutputs.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NuGetOutputs.props",
+      "fileHash": "c2a2f26f18328c1ca1d541b4f210a8e926cea197",
+      "timestamp": "2022-10-16T16:32:46.936153Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageDescription.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageDescription.targets",
+      "fileHash": "1f849c23aedffbf226e427f58cd957dcb94bb3e0",
+      "timestamp": "2022-10-16T16:32:46.93649Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NoWarn.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NoWarn.props",
+      "fileHash": "d15579b89289cae775b7539542650ee263ad25fb",
+      "timestamp": "2022-10-16T16:32:46.936813Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageProjectUrl.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageProjectUrl.props",
+      "fileHash": "794d1d00027880a354fcaeccf57103e341374f44",
+      "timestamp": "2022-10-16T16:32:46.937165Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/BuildConfigurations.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/BuildConfigurations.props",
+      "fileHash": "514e23013aacc33a717b8d9c48a6c63e41c7367d",
+      "timestamp": "2022-10-16T16:32:46.937584Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CodeGeneration.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CodeGeneration.props",
+      "fileHash": "e6338a551f4bbf26465a689fd5609f9b644f8ab0",
+      "timestamp": "2022-10-16T16:32:46.937948Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/AssemblySigning.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/AssemblySigning.props",
+      "fileHash": "be52287a7b8197861ff4982ca9a85c41978339fb",
+      "timestamp": "2022-10-16T16:32:46.938336Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NuGetizer copy.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NuGetizer copy.props",
+      "fileHash": "4dd8c6ebafaf78c6b3554ae1865fbd469af4fd7b",
+      "timestamp": "2022-10-16T16:32:46.938704Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/TestingLocal.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/TestingLocal.targets",
+      "fileHash": "da4741853d246e623a663d2d33e6e4ac2aef1d54",
+      "timestamp": "2022-10-16T16:32:46.939066Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageIcon.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageIcon.props",
+      "fileHash": "1d38f85b5a864dbb481273d315880f5846d626c1",
+      "timestamp": "2022-10-16T16:32:46.939398Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageTags.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageTags.targets",
+      "fileHash": "a12262caf0a45d5dd1ceb845bd372e77e507a815",
+      "timestamp": "2022-10-16T16:32:46.939708Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/CustomBeforeAndAfterTraversal.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/CustomBeforeAndAfterTraversal.props",
+      "fileHash": "b1cb9194259408c6d73ebfce7c1e9509b4cfce6a",
+      "timestamp": "2022-10-16T16:32:46.940072Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Publishing.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Publishing.props",
+      "fileHash": "385b667054994d8b931582748d01f7b9d0b031a3",
+      "timestamp": "2022-10-16T16:32:46.940415Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/PackageMetadata.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/PackageMetadata.targets",
+      "fileHash": "a78f9487a366a9cc8cec6fba28c87ddb081aed3d",
+      "timestamp": "2022-10-16T16:32:46.940779Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NuGetSources.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NuGetSources.props",
+      "fileHash": "78e01bcea1ea775fd8638ae74945be662833c20b",
+      "timestamp": "2022-10-16T16:32:46.943832Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Local.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Versions/Versions.Local.json",
+      "fileHash": "7540eaaf0d4a717b644a6a5cb9fd96ed442829bf",
+      "timestamp": "2022-10-16T16:32:46.945837Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Debug.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Versions/Versions.Debug.props",
+      "fileHash": "5eaf18dd0a5ee61522bc564b518308f238b910c1",
+      "timestamp": "2022-10-16T16:32:46.946236Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Local.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Versions/Versions.Local.props",
+      "fileHash": "c03b438709ac6e4584456004d87b4f09e1dfcbe9",
+      "timestamp": "2022-10-16T16:32:46.946586Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Debug.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Versions/Versions.Debug.json",
+      "fileHash": "5bf58aea3af2ac7e62b8e1c660f4b8db6667d513",
+      "timestamp": "2022-10-16T16:32:46.946932Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CODE_OF_CONDUCT.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/CODE_OF_CONDUCT.md",
+      "fileHash": "0e3cb9f03ed2a4ce837779ff50fcb334cab16e49",
+      "timestamp": "2022-10-16T16:32:46.947425Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/LICENSE.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/LICENSE.md",
+      "fileHash": "47e4d2d1a736382680c7a66c1ea3c8444ec2a683",
+      "timestamp": "2022-10-16T16:32:46.947912Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CODEOWNERS",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/CODEOWNERS",
+      "fileHash": "c883b50012ae86d0d52dfefb84c4446c140d94ea",
+      "timestamp": "2022-10-16T16:32:46.948305Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/SUPPORT.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/SUPPORT.md",
+      "fileHash": "adb516463629d04d2a22e1eccafc552050569b9b",
+      "timestamp": "2022-10-16T16:32:46.948688Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/index.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/index.md",
+      "fileHash": "a7354f8baa4315356a8634fce108ce54680b3f10",
+      "timestamp": "2022-10-16T16:32:46.949289Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CONTRIBUTING.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs/CONTRIBUTING.md",
+      "fileHash": "aaad5e1720ceee95aaa74d03b849ec44a5dc31a0",
+      "timestamp": "2022-10-16T16:32:46.950051Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/GlobalCodeGenerators.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/GlobalCodeGenerators.pkgs",
+      "fileHash": "887e34857e192db507996d38cb8407761c34c0a2",
+      "timestamp": "2022-10-16T16:32:46.950491Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/XmlDocMd.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/XmlDocMd.pkgs",
+      "fileHash": "a1e6c95b60ff5be6e0a7e89ab838cb6c986de643",
+      "timestamp": "2022-10-16T16:32:46.950907Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Testing.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Testing.pkgs",
+      "fileHash": "4f22b1ecbac232dc7bb2b254296f728f8ea9f7b5",
+      "timestamp": "2022-10-16T16:32:46.951473Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/EFCore.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/EFCore.pkgs",
+      "fileHash": "bcf593ae6ec1969f7a505446033a65c6c913258b",
+      "timestamp": "2022-10-16T16:32:46.951854Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/AnyOf.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/AnyOf.pkgs",
+      "fileHash": "b523423ff1d26351e2139170e2483433b898d9ca",
+      "timestamp": "2022-10-16T16:32:46.952224Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Microsoft.AspNetCore.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Microsoft.AspNetCore.pkgs",
+      "fileHash": "558edc1363c1461b82de7fbd3735e9c5c35a8ba2",
+      "timestamp": "2022-10-16T16:32:46.952552Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Miscellany.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Miscellany.pkgs",
+      "fileHash": "784ddf7a3f2572d44c407d8a0badde2d32a1a12d",
+      "timestamp": "2022-10-16T16:32:46.952859Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Swashbuckle.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Swashbuckle.pkgs",
+      "fileHash": "79dee9162d9a88e13e8d71c03722a702e9ba5be3",
+      "timestamp": "2022-10-16T16:32:46.953162Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/NetAnalyzers.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/NetAnalyzers.pkgs",
+      "fileHash": "ebd46603b4432707501c42fe55f6445586561de6",
+      "timestamp": "2022-10-16T16:32:46.953476Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/AzureFunctions.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/AzureFunctions.pkgs",
+      "fileHash": "cfc011e7b1d5caa265ae3269d04f364c25e0406a",
+      "timestamp": "2022-10-16T16:32:46.953802Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/JustinWritesCode.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/JustinWritesCode.pkgs",
+      "fileHash": "5eca0b767c43322d0fa86c4d745a2efbe5bcab47",
+      "timestamp": "2022-10-16T16:32:46.954151Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/MSBuildProjectCreator.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/MSBuildProjectCreator.pkgs",
+      "fileHash": "21ff8d720531b297574b95cc82d1885f75472817",
+      "timestamp": "2022-10-16T16:32:46.954577Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Cryptography.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Cryptography.pkgs",
+      "fileHash": "f0d7ed0d2ce0d43fcb82d3ae64b52a65c9c13955",
+      "timestamp": "2022-10-16T16:32:46.954935Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Images.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Images.pkgs",
+      "fileHash": "4e93c256de6ec5f8c86f69193ff9e56cb10c19d1",
+      "timestamp": "2022-10-16T16:32:46.95529Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/MSBuildSdks.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/MSBuildSdks.pkgs",
+      "fileHash": "a710a3b9fb83e33f5312ce89700fca207088951f",
+      "timestamp": "2022-10-16T16:32:46.955631Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/GlobalBuild.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/GlobalBuild.pkgs",
+      "fileHash": "a9c18380f66cffa25311d197a1313924d85925a4",
+      "timestamp": "2022-10-16T16:32:46.955977Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Telegram.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Telegram.pkgs",
+      "fileHash": "42cf7186884d7ecc6f40186f3a96ffdc03102920",
+      "timestamp": "2022-10-16T16:32:46.956317Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/AutoMapper.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/AutoMapper.pkgs",
+      "fileHash": "65225497240046a1ccc8529319452d190fe282f7",
+      "timestamp": "2022-10-16T16:32:46.956682Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/NuGet.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/NuGet.pkgs",
+      "fileHash": "496e91728d9c4905e0afaf54a66cb38f60586ff3",
+      "timestamp": "2022-10-16T16:32:46.957026Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/APIVersioning.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/APIVersioning.pkgs",
+      "fileHash": "d8b245e3116d4700c7a69b859f270726780f235c",
+      "timestamp": "2022-10-16T16:32:46.957365Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Roslyn.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Roslyn.pkgs",
+      "fileHash": "7e7a70b9a66531bc80edcc65e6aadf3550e8b2d3",
+      "timestamp": "2022-10-16T16:32:46.957733Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Microsoft.Extensions.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Microsoft.Extensions.pkgs",
+      "fileHash": "42bd7ba387fe1a8750e6408651f30f0624031bbd",
+      "timestamp": "2022-10-16T16:32:46.95818Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Validation.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Validation.pkgs",
+      "fileHash": "eda881fb04b221f2cd46330a16172363ad1fe43d",
+      "timestamp": "2022-10-16T16:32:46.958614Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/MSBuild.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/MSBuild.pkgs",
+      "fileHash": "3a6f913f1ae0733787f711cf044746a4cb76d348",
+      "timestamp": "2022-10-16T16:32:46.959017Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/McMaster.CommandLineUtils.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/McMaster.CommandLineUtils.pkgs",
+      "fileHash": "b41d998283afeddae000b62deff12ff83d5c596c",
+      "timestamp": "2022-10-16T16:32:46.959416Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/SlnGen.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/SlnGen.pkgs",
+      "fileHash": "a96569b5ff13c3603d1172e6276539155e45b88c",
+      "timestamp": "2022-10-16T16:32:46.959804Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Azure.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Azure.pkgs",
+      "fileHash": "0f93cb067c15c30f7c77a72ea9a7f2ead2e59a19",
+      "timestamp": "2022-10-16T16:32:46.960364Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Testing.EfCore.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Testing.EfCore.pkgs",
+      "fileHash": "39cd046a22a3c5ab444b850364b9cac9e624432b",
+      "timestamp": "2022-10-16T16:32:46.960718Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/Newtonsoft.Json.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/Newtonsoft.Json.pkgs",
+      "fileHash": "5c225b26a13a28f115a89793a1b8c68d177f8ff0",
+      "timestamp": "2022-10-16T16:32:46.961214Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages/System.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages/System.pkgs",
+      "fileHash": "673838791728e5ab55fad9c8fd794577aa7edde9",
+      "timestamp": "2022-10-16T16:32:46.96163Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/funding.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/funding.yml",
+      "fileHash": "7bc2d31ec1c7cfde0a670f19c0822c0f8a7dd395",
+      "timestamp": "2022-10-16T16:32:46.962068Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/PULL_REQUEST_TEMPLATE.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/PULL_REQUEST_TEMPLATE.md",
+      "fileHash": "f62f062ded733c9471d7c32fe351708cd19556b5",
+      "timestamp": "2022-10-16T16:32:46.962466Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/pull_request_template.yaml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/pull_request_template.yaml",
+      "fileHash": "1fa4c20bdbf538304b9fdac0eef2e15f40104db4",
+      "timestamp": "2022-10-16T16:32:46.962987Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/SECURITY.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/SECURITY.md",
+      "fileHash": "58914098e784f0aa2bbc7de42cc745217491fa09",
+      "timestamp": "2022-10-16T16:32:46.963462Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.vscode/tasks.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.vscode/tasks.json",
+      "fileHash": "65c94ed1cd73eb74f87e94ad3133241e8290d6cf",
+      "timestamp": "2022-10-16T16:32:46.96489Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/assets/JustinWritesCode.PublicKey",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/assets/JustinWritesCode.PublicKey",
+      "fileHash": "067c43ec567af8159a6c0a12e6b9eb1d39c585f7",
+      "timestamp": "2022-10-16T16:32:46.965337Z"
+    },
+    {
+      "status": "RestoredNew",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/assets/JustinWritesCode.snk",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/assets/JustinWritesCode.snk",
+      "fileHash": "adf52e594698342103d1b965705052bffe7e611b",
+      "timestamp": "2022-10-16T16:32:46.966224Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/workflows/docs-ci.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/workflows/docs-ci.yml",
+      "fileHash": "d3fff150dd90a6163a2db881b7555d0671b269b1",
+      "timestamp": "2022-10-16T16:32:46.966796Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "fileHash": "cc787ad93c440413866d8538bd03b0fbc807668a",
+      "timestamp": "2022-10-16T16:32:46.967306Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "fileHash": "c002f561dbb1dc590df568632bef04dedd2c8426",
+      "timestamp": "2022-10-16T16:32:46.967662Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/security_report.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/ISSUE_TEMPLATE/security_report.yml",
+      "fileHash": "11128a7c79719786a15d1d6d70232924f33350aa",
+      "timestamp": "2022-10-16T16:32:46.968106Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/config.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/ISSUE_TEMPLATE/config.yml",
+      "fileHash": "39fdca8a77241a421ddc006f868c7943dd7d3aa2",
+      "timestamp": "2022-10-16T16:32:46.969232Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.restored-files",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.restored-files",
+      "fileHash": "7ae62e3afba0a659934da0bf13bbb57696538748",
+      "timestamp": "2022-10-16T16:32:46.969833Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/NuGet.config",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/uGet.config",
+      "fileHash": "831b91678af83c9b6994c1552a3c696244201f5e",
+      "timestamp": "2022-10-18T00:09:07.201047Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.gitignore",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/gitignore",
+      "fileHash": "098d51c37671cfa2df096e8b99b0d15c5e2415a7",
+      "timestamp": "2022-10-18T00:09:07.201813Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/global.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/lobal.json",
+      "fileHash": "a4ea4362f59345fe63d3d4b725da98619f001cb1",
+      "timestamp": "2022-10-18T00:09:07.202148Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Local.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ersions/Versions.Local.json",
+      "fileHash": "0f390280549fe220baa22bf56f6549f1c271b318",
+      "timestamp": "2022-10-18T00:09:07.202619Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Debug.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ersions/Versions.Debug.props",
+      "fileHash": "0a395a6e24981aac69154e22e367c21e0a55c061",
+      "timestamp": "2022-10-18T00:09:07.202916Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Local.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ersions/Versions.Local.props",
+      "fileHash": "75f898191848806ec96dc56889589996275821af",
+      "timestamp": "2022-10-18T00:09:07.203211Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions/Versions.Debug.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ersions/Versions.Debug.json",
+      "fileHash": "71aebfaa84cc68eee31b5d6e15fbc151d0007daa",
+      "timestamp": "2022-10-18T00:09:07.203691Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CODE_OF_CONDUCT.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/CODE_OF_CONDUCT.md",
+      "fileHash": "0e3cb9f03ed2a4ce837779ff50fcb334cab16e49",
+      "timestamp": "2022-10-18T00:09:07.204083Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/LICENSE.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/LICENSE.md",
+      "fileHash": "47e4d2d1a736382680c7a66c1ea3c8444ec2a683",
+      "timestamp": "2022-10-18T00:09:07.204489Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CODEOWNERS",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/CODEOWNERS",
+      "fileHash": "c883b50012ae86d0d52dfefb84c4446c140d94ea",
+      "timestamp": "2022-10-18T00:09:07.20472Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/SUPPORT.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/SUPPORT.md",
+      "fileHash": "adb516463629d04d2a22e1eccafc552050569b9b",
+      "timestamp": "2022-10-18T00:09:07.204945Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/index.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/index.md",
+      "fileHash": "a7354f8baa4315356a8634fce108ce54680b3f10",
+      "timestamp": "2022-10-18T00:09:07.20522Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs/CONTRIBUTING.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs/CONTRIBUTING.md",
+      "fileHash": "aaad5e1720ceee95aaa74d03b849ec44a5dc31a0",
+      "timestamp": "2022-10-18T00:09:07.205507Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/funding.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/funding.yml",
+      "fileHash": "7bc2d31ec1c7cfde0a670f19c0822c0f8a7dd395",
+      "timestamp": "2022-10-18T00:09:07.205886Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/PULL_REQUEST_TEMPLATE.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/PULL_REQUEST_TEMPLATE.md",
+      "fileHash": "f62f062ded733c9471d7c32fe351708cd19556b5",
+      "timestamp": "2022-10-18T00:09:07.206178Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/pull_request_template.yaml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/pull_request_template.yaml",
+      "fileHash": "1fa4c20bdbf538304b9fdac0eef2e15f40104db4",
+      "timestamp": "2022-10-18T00:09:07.206649Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/SECURITY.md",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/SECURITY.md",
+      "fileHash": "58914098e784f0aa2bbc7de42cc745217491fa09",
+      "timestamp": "2022-10-18T00:09:07.206965Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.vscode/tasks.json",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/vscode/tasks.json",
+      "fileHash": "3168af0f2522d9316ea83d58fbf7d044e07df728",
+      "timestamp": "2022-10-18T00:09:07.207401Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/workflows/docs-ci.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/workflows/docs-ci.yml",
+      "fileHash": "d3fff150dd90a6163a2db881b7555d0671b269b1",
+      "timestamp": "2022-10-18T00:09:07.207762Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/ISSUE_TEMPLATE/feature_request.yml",
+      "fileHash": "cc787ad93c440413866d8538bd03b0fbc807668a",
+      "timestamp": "2022-10-18T00:09:07.208111Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/ISSUE_TEMPLATE/bug_report.yml",
+      "fileHash": "c002f561dbb1dc590df568632bef04dedd2c8426",
+      "timestamp": "2022-10-18T00:09:07.208397Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/security_report.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/ISSUE_TEMPLATE/security_report.yml",
+      "fileHash": "11128a7c79719786a15d1d6d70232924f33350aa",
+      "timestamp": "2022-10-18T00:09:07.208659Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE/config.yml",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/ISSUE_TEMPLATE/config.yml",
+      "fileHash": "39fdca8a77241a421ddc006f868c7943dd7d3aa2",
+      "timestamp": "2022-10-18T00:09:07.208961Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build.props",
+      "fileHash": "3a1d04d582ecc58f06157597743d0036a4fbf466",
+      "timestamp": "2022-10-18T11:14:56.467951Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build.targets",
+      "fileHash": "95f5d5291811014f2156f8e75f76c086d8d7f12e",
+      "timestamp": "2022-10-18T11:14:56.468302Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages.pkgs",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages.pkgs",
+      "fileHash": "fd4953a2fc309d552f3d7d9b55fb76253482e4a3",
+      "timestamp": "2022-10-18T11:14:56.469321Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/NuGetizer.targets",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/NuGetizer.targets",
+      "fileHash": "32eccc4fe320470a5fa795092aa2dfe9817bd864",
+      "timestamp": "2022-10-18T11:14:56.47328Z"
+    },
+    {
+      "status": "Overwritten",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "file:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build/Testing.props",
+      "destination": "file:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build/Testing.props",
+      "fileHash": "e1eb0c464adbfc06b24b28b2e12e51dab3b8acb9",
+      "timestamp": "2022-10-18T11:14:56.473957Z"
+    }
+  ],
+  "directories": [
+    {
+      "timestamp": "2022-10-16T16:32:46.92863Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Directory.Build",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Directory.Build",
+      "fileHash": "be52287a7b8197861ff4982ca9a85c41978339fb-d527daae937c3231249c3964b493de42b739b9cb-3e861efbda80e2ebd5642a58f1bdce9ae1320d00-14ebeb8b106892d3af63c4ddf9fce609459285fa-514e23013aacc33a717b8d9c48a6c63e41c7367d-3962146bf39fb3b40436c445995f0fd2ee609cf9-e6338a551f4bbf26465a689fd5609f9b644f8ab0-cf5adb4853d61d9840b4af724d4f0693da790334-0c2d7ce081c5dd2df90821a105edfe6d9fc304de-a13ee43b3d4dd28f2584409ab7588410af08f0bf-47113857e50d6451d9501a8b6fda0325c6a94135-6832be739eeb9ccc01f68d32a3da3636e33f1db3-b1cb9194259408c6d73ebfce7c1e9509b4cfce6a-ccdcad435895c6004631f752f8a3b3715689e539-261fe44bd2cc63354a6106ec850e872d3d344715-a517f8afb9abff29547c8a54ec1320030d000538-d15579b89289cae775b7539542650ee263ad25fb-4dd8c6ebafaf78c6b3554ae1865fbd469af4fd7b-9f766910c466ed7ef57d9ac0767a2ec5d8027ca5-c2a2f26f18328c1ca1d541b4f210a8e926cea197-78e01bcea1ea775fd8638ae74945be662833c20b-1f849c23aedffbf226e427f58cd957dcb94bb3e0-1d38f85b5a864dbb481273d315880f5846d626c1-a455e55610013c255ddcd59e54c565cbde0b4b81-a78f9487a366a9cc8cec6fba28c87ddb081aed3d-794d1d00027880a354fcaeccf57103e341374f44-81336902a3a56333386db5c1a788dcf6338bfdaf-641eaccc362c34d5ac12283f0818ad60be38f018-5506c678ab15c04f2555c9b794e75f722ce50158-a12262caf0a45d5dd1ceb845bd372e77e507a815-385b667054994d8b931582748d01f7b9d0b031a3-bec731e9d91f79dab26bf2e79ede60b6c2e8530f-4fb12028a07962ff3e4b588d97a5ff1047dc16e8-19fac1400cbac4bfc52dbfbfbcc516d73d0cbb7a-da4741853d246e623a663d2d33e6e4ac2aef1d54"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.943946Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Versions",
+      "fileHash": "5bf58aea3af2ac7e62b8e1c660f4b8db6667d513-5eaf18dd0a5ee61522bc564b518308f238b910c1-7540eaaf0d4a717b644a6a5cb9fd96ed442829bf-c03b438709ac6e4584456004d87b4f09e1dfcbe9"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.947006Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/docs",
+      "fileHash": "0e3cb9f03ed2a4ce837779ff50fcb334cab16e49-c883b50012ae86d0d52dfefb84c4446c140d94ea-aaad5e1720ceee95aaa74d03b849ec44a5dc31a0-a7354f8baa4315356a8634fce108ce54680b3f10-47e4d2d1a736382680c7a66c1ea3c8444ec2a683-adb516463629d04d2a22e1eccafc552050569b9b"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.95013Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Packages",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/Packages",
+      "fileHash": "b523423ff1d26351e2139170e2483433b898d9ca-d8b245e3116d4700c7a69b859f270726780f235c-65225497240046a1ccc8529319452d190fe282f7-0f93cb067c15c30f7c77a72ea9a7f2ead2e59a19-cfc011e7b1d5caa265ae3269d04f364c25e0406a-f0d7ed0d2ce0d43fcb82d3ae64b52a65c9c13955-bcf593ae6ec1969f7a505446033a65c6c913258b-a9c18380f66cffa25311d197a1313924d85925a4-887e34857e192db507996d38cb8407761c34c0a2-4e93c256de6ec5f8c86f69193ff9e56cb10c19d1-5eca0b767c43322d0fa86c4d745a2efbe5bcab47-b41d998283afeddae000b62deff12ff83d5c596c-558edc1363c1461b82de7fbd3735e9c5c35a8ba2-42bd7ba387fe1a8750e6408651f30f0624031bbd-784ddf7a3f2572d44c407d8a0badde2d32a1a12d-3a6f913f1ae0733787f711cf044746a4cb76d348-21ff8d720531b297574b95cc82d1885f75472817-a710a3b9fb83e33f5312ce89700fca207088951f-ebd46603b4432707501c42fe55f6445586561de6-5c225b26a13a28f115a89793a1b8c68d177f8ff0-496e91728d9c4905e0afaf54a66cb38f60586ff3-7e7a70b9a66531bc80edcc65e6aadf3550e8b2d3-a96569b5ff13c3603d1172e6276539155e45b88c-79dee9162d9a88e13e8d71c03722a702e9ba5be3-673838791728e5ab55fad9c8fd794577aa7edde9-42cf7186884d7ecc6f40186f3a96ffdc03102920-39cd046a22a3c5ab444b850364b9cac9e624432b-4f22b1ecbac232dc7bb2b254296f728f8ea9f7b5-eda881fb04b221f2cd46330a16172363ad1fe43d-a1e6c95b60ff5be6e0a7e89ab838cb6c986de643"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.961711Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github",
+      "fileHash": "7bc2d31ec1c7cfde0a670f19c0822c0f8a7dd395-c002f561dbb1dc590df568632bef04dedd2c8426-39fdca8a77241a421ddc006f868c7943dd7d3aa2-cc787ad93c440413866d8538bd03b0fbc807668a-11128a7c79719786a15d1d6d70232924f33350aa-f62f062ded733c9471d7c32fe351708cd19556b5-1fa4c20bdbf538304b9fdac0eef2e15f40104db4-58914098e784f0aa2bbc7de42cc745217491fa09-d3fff150dd90a6163a2db881b7555d0671b269b1"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.96499Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/assets",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/assets",
+      "fileHash": "067c43ec567af8159a6c0a12e6b9eb1d39c585f7-adf52e594698342103d1b965705052bffe7e611b"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.96631Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/workflows",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/workflows",
+      "fileHash": "d3fff150dd90a6163a2db881b7555d0671b269b1"
+    },
+    {
+      "timestamp": "2022-10-16T16:32:46.966881Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/.github/ISSUE_TEMPLATE",
+      "fileHash": "c002f561dbb1dc590df568632bef04dedd2c8426-39fdca8a77241a421ddc006f868c7943dd7d3aa2-cc787ad93c440413866d8538bd03b0fbc807668a-11128a7c79719786a15d1d6d70232924f33350aa"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.202255Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/Versions",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ersions",
+      "fileHash": "71aebfaa84cc68eee31b5d6e15fbc151d0007daa-0a395a6e24981aac69154e22e367c21e0a55c061-0f390280549fe220baa22bf56f6549f1c271b318-75f898191848806ec96dc56889589996275821af"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.203774Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/docs",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/ocs",
+      "fileHash": "0e3cb9f03ed2a4ce837779ff50fcb334cab16e49-c883b50012ae86d0d52dfefb84c4446c140d94ea-aaad5e1720ceee95aaa74d03b849ec44a5dc31a0-a7354f8baa4315356a8634fce108ce54680b3f10-47e4d2d1a736382680c7a66c1ea3c8444ec2a683-adb516463629d04d2a22e1eccafc552050569b9b"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.205591Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github",
+      "fileHash": "7bc2d31ec1c7cfde0a670f19c0822c0f8a7dd395-c002f561dbb1dc590df568632bef04dedd2c8426-39fdca8a77241a421ddc006f868c7943dd7d3aa2-cc787ad93c440413866d8538bd03b0fbc807668a-11128a7c79719786a15d1d6d70232924f33350aa-f62f062ded733c9471d7c32fe351708cd19556b5-1fa4c20bdbf538304b9fdac0eef2e15f40104db4-58914098e784f0aa2bbc7de42cc745217491fa09-d3fff150dd90a6163a2db881b7555d0671b269b1"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.207041Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.vscode",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/vscode",
+      "fileHash": "3168af0f2522d9316ea83d58fbf7d044e07df728"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.207476Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/workflows",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/workflows",
+      "fileHash": "d3fff150dd90a6163a2db881b7555d0671b269b1"
+    },
+    {
+      "timestamp": "2022-10-18T00:09:07.207844Z",
+      "status": "None",
+      "projectDirectoryInfo": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders",
+      "sourceRoot": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/",
+      "source": "dir:///Users/david/.nuget/packages/justinwritescode.common.restorecommonfiles/0.0.1-local/common/.github/ISSUE_TEMPLATE",
+      "destination": "dir:///Users/david/GitHub/justinwritescode/src/MSBuild.EnsureFileHeaders/github/ISSUE_TEMPLATE",
+      "fileHash": "c002f561dbb1dc590df568632bef04dedd2c8426-39fdca8a77241a421ddc006f868c7943dd7d3aa2-cc787ad93c440413866d8538bd03b0fbc807668a-11128a7c79719786a15d1d6d70232924f33350aa"
+    }
+  ]
+}

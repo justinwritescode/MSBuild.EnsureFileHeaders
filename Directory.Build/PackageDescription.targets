@@ -1,0 +1,10 @@
+<Project>
+  <Target Name="SetPackageDescription" BeforeTargets="GetPackageMetadata" DependsOnTargets="SetLastMinutePackageMetadata">
+    <PropertyGroup>
+      <BuildMessage>Built from commit $(GitCommit) on branch $(GitBranch) at $(GitCommitDate)</BuildMessage>
+      <Description>$(Description)
+      
+$(BuildMessage)</Description>
+    </PropertyGroup>
+  </Target>
+</Project>

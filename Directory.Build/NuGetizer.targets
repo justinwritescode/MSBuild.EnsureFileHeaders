@@ -1,0 +1,7 @@
+<Project>
+  <Target Name="AssignNuGetizerPropsForTestingProject">
+    <PropertyGroup Label="Targets for Testing projects" Condition="'$(IsTestingproject)' != 'true'">
+      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    </PropertyGroup>
+  </Target>
+</Project>

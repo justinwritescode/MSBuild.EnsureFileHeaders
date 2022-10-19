@@ -1,0 +1,5 @@
+<Project>
+ <PropertyGroup>
+    <CustomBeforeSlnGenTargets>$(CustomBeforeSlnGenTargets);SlnGen.Before.targets</CustomBeforeSlnGenTargets>
+ </PropertyGroup>
+</Project>
