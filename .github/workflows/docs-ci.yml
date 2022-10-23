@@ -38,7 +38,7 @@ jobs:
           # Username of token holder
           git_token_holder: justinwritescode
           # Token for the destination repo. Can be passed in using $\{{ secrets.GIT_TOKEN }}
-          git_token: ${{ secrets.GIT_TOKEN }}
+          git_token: ${{ secrets.REPO_TOKEN }}
           # Repository URL after "https://", like "github.com/USER_NAME/REPO_NAME.git"
           repository_url: https://github.com/justinwritescode/docs.git
           # Directory to push
@@ -48,8 +48,8 @@ jobs:
           # Email of the user to commit
           commit_email: justin@justinwritescode.com
           # Destination branch to push changes
-          # branch: # optional, default is master
+          branch: main # optional, default is master
           # Keep commit history
           keep_history: true # optional
           # Commit messgae
-          commit_message: Docs CI push # optional
+          commit_message: "CI for GH Pages" # optional

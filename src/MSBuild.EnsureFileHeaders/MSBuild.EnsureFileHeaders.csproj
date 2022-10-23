@@ -7,9 +7,9 @@
       <PackageReference Include="Microsoft.Build" />
       <PackageReference Include="System.Text.Json" />
       <PackageReference Include="System.Xml.XDocument" />
-      <PackageReference Include="JustinWritesCode.ComponentModel" PrivateAssets="all" ExcludeAssets="ContentFiles" />
+      <PackageReference Include="JustinWritesCode.Types.ComponentModel" PrivateAssets="all" ExcludeAssets="ContentFiles" />
       <PackageReference Include="System.ComponentModel.Annotations" />
-      <PackageReference Include="System.ComponentModel" />
+      <!-- <PackageReference Include="System.ComponentModel" /> -->
   </ItemGroup>
   <ItemGroup Label="Global Usings">
       <Using Include="Microsoft.Build.Framework" />
@@ -19,18 +19,30 @@
       <Using Include="System.Text.Json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Include Include="**/*.cs" />
+    <Author Include="Justin Chase &lt;justin@justinwritescode.com&gt;" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <SearchRoot>$(MSBuildThisFileDirectory)</SearchRoot> 
+    <License>MIT</License>
+  </PropertyGroup>
+  
+  <UsingTask TaskName="EnsureFileHeaders" AssemblyFile="$(OutputPath)$(AssemblyName).dll" />
+
   <Target Name="EnsureFileHeaders" DependsOnTargets="GitInfo;Build">
-    <UsingTask TaskName="JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders" AssemblyName="$(OutputPath)$(AssemblyName).dll" />
     
     <Error Code="JWC001" Condition="@(Include=>Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
     <Error Code="JWC002" Condition="'$(SearchRoot)' == ''" Text="You must specify a root directory to start the search from." File="$(MSBuildThisFile)" />
     <Error Code="JWC003" Condition="'$(License)' == ''" Text="You must specify a license.  It should be one of the following: $([System.String]::Join(', ', [JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders]::ValidLicenseValues))." File="$(MSBuildThisFile)" />
     <Error Code="JWC004" Condition="@(Author->Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
 
-    <JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders 
+    <EnsureFileHeaders 
       Include="@(Include)"
       Exclude="@(Exclude)"
       Authors="@(Author)"
-      SearchRoot="$(SearchRoot)" />
+      SearchRoot="$(SearchRoot)"
+      License="$(License)" />
   </Target>
 </Project>

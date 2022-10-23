@@ -8,6 +8,8 @@
     "CodeGeneration.Roslyn.Plugin.Metapackage.Sdk": "0.7.63",
     "CodeGeneration.Roslyn.Plugin.Sdk": "0.7.63",
     "MSBuild.SolutionSdk": "0.1.0",
-    "MSBuild.SolutionSdk.SlnGen": "0.1.0"
+    "MSBuild.SolutionSdk.SlnGen": "0.1.0",
+    "MSBuild.IncludeSdk": "0.0.1-Local",
+    "MSBuild.UsingsSdk": "0.0.1-Local"
   }
 }

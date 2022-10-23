@@ -1,3 +1,0 @@
-<Project Sdk="Microsoft.Build.CentralPackageVersions">
-  <Import Project="$(PkgJustinWritesCode_Common_RestoreCommonFiles)/common/Directory.Build/*.targets" />
-</Project>

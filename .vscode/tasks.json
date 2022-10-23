@@ -45,17 +45,17 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "Restore Common Files",
+            "label": "Restore Shared Files",
             "command": "dotnet",
             "type": "shell",
             "args": [
                 "build",
                 "--configuration",
                 "${input:Configuration}",
-                "-t:RestoreCommonFiles",
+                "-t:RestoreSharedFiles",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary",
-                "${workspaceFolder}/RestoreCommonFiles.restoreproj"
+                "${workspaceFolder}/*.sln"
             ],
             "group": "build",
             "presentation": {
@@ -124,8 +124,7 @@
             "Description":"Select a project",
             "args": {
                 "include":"**/*.*proj",
-                "display":"fileName",
-                "addAsk":true
+                "display":"fileName"
             }
         },
         {

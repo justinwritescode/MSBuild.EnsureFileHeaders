@@ -1,3 +1,0 @@
-<Project>
-  <Import Project="$(PkgJustinWritesCode_Common_RestoreCommonFiles)/common/Packages/*.pkgs" />
-</Project>

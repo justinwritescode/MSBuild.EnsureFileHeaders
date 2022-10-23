@@ -1,6 +1,8 @@
 <Project Sdk="Microsoft.Build.Traversal">
+  <PropertyGroup>
+   <IncludeInSolutionFile>false</IncludeInSolutionFile> 
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="./src/MSBuild.EnsureFileHeaders/MSBuild.EnsureFileHeaders.csproj" />
-    <PackageReference Include="JustinWritesCode.Common.RestoreCommonFiles" />
   </ItemGroup>
 </Project>

@@ -23,7 +23,7 @@
 *.lbr
 # An archive format used by Mozilla for storing binary diffs. Used in conjunction with bzip2.
 *.mar
-# A common archive format used on Unix-like systems. Generally used in conjunction with compressors such as gzip, bzip2, compress or xz to create .tar.gz, .tar.bz2, .tar.Z or tar.xz files.
+# A Shared archive format used on Unix-like systems. Generally used in conjunction with compressors such as gzip, bzip2, compress or xz to create .tar.gz, .tar.bz2, .tar.Z or tar.xz files.
 *.tar
 
 # Package managers
@@ -114,7 +114,7 @@ local.settings.json
 *.car
 # Open source file format.
 *.cfs
-# Compact Pro archive, a common archiver used on Mac platforms until about Mac OS 7.5.x. Competed with StuffIt; now obsolete.
+# Compact Pro archive, a Shared archiver used on Mac platforms until about Mac OS 7.5.x. Competed with StuffIt; now obsolete.
 *.cpt
 # Windows, Unix-like, Mac OS X Open source file format. Files are compressed individually with either gzip, bzip2 or lzo.
 *.dar
@@ -161,7 +161,7 @@ local.settings.json
 *.rk
 # Self Dissolving ARChive 	Commodore 64, Commodore 128 	Commodore 64, Commodore 128 	Yes 	SDAs refer to Self Dissolving ARC files, and are based on the Commodore 64 and Commodore 128 versions of ARC, originally written by Chris Smeets. While the files share the same extension, they are not compatible between platforms. That is, an SDA created on a Commodore 64 but run on a Commodore 128 in Commodore 128 mode will crash the machine, and vice versa. The intended successor to SDA is SFX.
 *.sda
-# A pre-Mac OS X Self-Extracting Archive format. StuffIt, Compact Pro, Disk Doubler and others could create .sea files, though the StuffIt versions were the most common.
+# A pre-Mac OS X Self-Extracting Archive format. StuffIt, Compact Pro, Disk Doubler and others could create .sea files, though the StuffIt versions were the most Shared.
 *.sea
 # Scifer Archive with internal header
 *.sen
@@ -169,11 +169,11 @@ local.settings.json
 *.sfx
 # An archive format designed for the Apple II series of computers. The canonical implementation is ShrinkIt, which can operate on disk images as well as files. Preferred compression algorithm is a combination of RLE and 12-bit LZW. Archives can be manipulated with the command-line NuLib tool, or the Windows-based CiderPress.
 *.shk
-# A compression format common on Apple Macintosh computers. The free StuffIt Expander is available for Windows and OS X.
+# A compression format Shared on Apple Macintosh computers. The free StuffIt Expander is available for Windows and OS X.
 # The replacement for the .sit format that supports more compression methods, UNIX file permissions, long file names, very large files, more encryption options, data specific compressors (JPEG, Zip, PDF, 24-bit image, MP3). The free StuffIt Expander is available for Windows and OS X.
 # A royalty-free compressing format
 *.sqx
-# The "tarball" format combines tar archives with a file-based compression scheme (usually gzip). Commonly used for source and binary distribution on Unix-like platforms, widely available elsewhere.
+# The "tarball" format combines tar archives with a file-based compression scheme (usually gzip). Sharedly used for source and binary distribution on Unix-like platforms, widely available elsewhere.
 *.tar.gz
 *.tar.Z
 *.tar.bz2
@@ -200,7 +200,7 @@ local.settings.json
 *.xp3
 # Yamazaki zipper archive. Compression format used in DeepFreezer archiver utility created by Yamazaki Satoshi. Read and write support exists in TUGZip, IZArc and ZipZag
 *.yz1
-# The most widely used compression format on Microsoft Windows. Commonly used on Macintosh and Unix systems as well.
+# The most widely used compression format on Microsoft Windows. Sharedly used on Macintosh and Unix systems as well.
 # application/x-zoo 	zoo 	Multiple 	Multiple 	Yes 	
 *.zoo
 # Journaling (append-only) archive format with rollback capability. Supports deduplication and incremental update based on last-modified dates. Multi-threaded. Compresses in LZ77, BWT, and context mixing formats. Open source.
@@ -701,7 +701,7 @@ _book
 bin/
 obj/
 
-# Common node modules locations
+# Shared node modules locations
 /node_modules
 /wwwroot/node_modules
 
@@ -789,14 +789,14 @@ Backup of *.doc*
 
 # Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
 
-# Most common
+# Most Shared
 *foo
 *bar
 *fubar
 *foobar
 *baz
 
-# Less common
+# Less Shared
 *qux
 *quux
 *bongo

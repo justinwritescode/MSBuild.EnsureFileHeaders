@@ -8,7 +8,7 @@ public class EnsureFileHeaders : MSBTask
     [Required]
     public string SearchRoot { get; set; } = string.Empty;
     [Required]
-    public SoftwareLicenseEnum License { get; set; }
+    public string License { get; set; }
     [Required]
     public ITaskItem[] Include { get; set; } = Array.Empty<ITaskItem>();
     public ITaskItem[] Exclude { get; set; } = Array.Empty<ITaskItem>();
@@ -21,7 +21,7 @@ public class EnsureFileHeaders : MSBTask
     public override bool Execute()
     {
         var changedFiles = new List<ITaskItem>();
-        var license = License.GetLicenseAsync().GetAwaiter().GetResult();
+        var license = ((SoftwareLicenseEnum)Enum.Parse(typeof(SoftwareLicenseEnum), License)).GetLicenseAsync().GetAwaiter().GetResult();
         var include = Include.Select(i => i.ItemSpec).ToList();
         var exclude = Exclude?.Select(i => i.ItemSpec).ToList() ?? new List<string>();
 
