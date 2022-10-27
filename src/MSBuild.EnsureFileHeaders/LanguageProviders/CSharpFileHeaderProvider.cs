@@ -1,3 +1,4 @@
+using System.IO;
 using System.Text;
 
 namespace JustinWritesCode.MSBuild.EnsureFileHeaders;
@@ -5,7 +6,19 @@ namespace JustinWritesCode.MSBuild.EnsureFileHeaders;
 public class CSharpFileHeaderProvider : FileHeaderLanguageProvider
 {
     public override string[] Extensions => new[] { ".cs" };
-    public override void WriteFileHeader(string filePath, string license, ITaskItem[] authors)
+    public override void WriteFileHeader(string filePath, string license, ITaskItem[] authors, FileHeaderFormat format = FileHeaderFormat.Short)
+    {
+        if (format == FileHeaderFormat.Short)
+        {
+            WriteShortFileHeader(filePath, license, authors);
+        }
+        else
+        {
+            WriteLongFileHeader(filePath, license, authors);
+        }
+    }
+
+    private void WriteLongFileHeader(string filePath, string license, ITaskItem[] authors)
     {
         var fileContents = File.ReadAllText(filePath);
         var fileHeader = new StringBuilder();
@@ -29,8 +42,21 @@ public class CSharpFileHeaderProvider : FileHeaderLanguageProvider
         fileHeader.AppendLine("//    ");
         fileHeader.AppendLine($"//    {Regex.Replace(license, "^", "^// ")}");
         fileHeader.AppendLine("//    ");
-        fileContents = Regex.Replace(@"^\/\/    .*", fileContents, ""); // Remove existing file headers
+        fileContents = Regex.Replace(@"(^\/\/    .*){2,}", fileContents, ""); // Remove existing file headers
         fileContents = fileHeader.ToString() + fileContents;
         File.WriteAllText(filePath, fileContents);
     }
+
+    private void WriteShortFileHeader(string filePath, string license, ITaskItem[] authors)
+    {
+        var fileHeaderContent = $"//  <copyright file=\"${Path.GetFileName(filePath)}\"> ©{DateTime.Now.Year} {authors.Select(author => $"{author.ItemSpec} <{(author.GetMetadata("Email"))}>")} (https://docs.justinwritescode.com) under MIT License. See https://opensource.org/licenses/MIT </copyright>";
+        var fileHeader = $@"//  {new string('-', fileHeaderContent.Length - 4)}{Environment.NewLine}{fileHeaderContent}{Environment.NewLine}//  {new string('-', fileHeaderContent.Length - 4)}
+ ";
+
+        var fileContents = File.ReadAllText(filePath);
+        fileContents = Regex.Replace(@"(^\/\/  \-+\n.*\n\/\/  \-+\n", fileContents, ""); // Remove existing file headers
+        fileContents = fileHeader.ToString() + fileContents;
+        File.WriteAllText(filePath, fileContents);
+    }
+
 }

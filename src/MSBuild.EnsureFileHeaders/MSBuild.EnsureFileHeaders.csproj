@@ -1,48 +1,52 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
-  <ItemGroup>
-      <PackageReference Include="Microsoft.Build.Utilities.Core" />
-      <PackageReference Include="Microsoft.Build" />
-      <PackageReference Include="System.Text.Json" />
-      <PackageReference Include="System.Xml.XDocument" />
-      <PackageReference Include="JustinWritesCode.Types.ComponentModel" PrivateAssets="all" ExcludeAssets="ContentFiles" />
-      <PackageReference Include="System.ComponentModel.Annotations" />
-      <!-- <PackageReference Include="System.ComponentModel" /> -->
-  </ItemGroup>
-  <ItemGroup Label="Global Usings">
-      <Using Include="Microsoft.Build.Framework" />
-      <Using Include="Microsoft.Build.Execution" />
-      <Using Include="Microsoft.Build.Utilities.Task" Alias="MSBTask" />
-      <Using Include="System.Text.RegularExpressions" />
-      <Using Include="System.Text.Json" />
-  </ItemGroup>
+    <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <EnableGlobalCodeGenerators>false</EnableGlobalCodeGenerators>
+      <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+      <PackageId>$(MSBuildProjectName)</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Build.Utilities.Core" />
+        <PackageReference Include="Microsoft.Build" />
+        <PackageReference Include="System.Text.Json" />
+        <PackageReference Include="System.Xml.XDocument" />
+        <PackageReference Include="JustinWritesCode.ComponentModel" IncludeAssets="Compile" />
+        <PackageReference Include="System.ComponentModel.Annotations" />
+        <PackageReference Include="JustinWritesCode.Enumerations.CodeGeneration" PrivateAssets="All" IncludeAssets="Analyzers" />
+        <PackageReference Include="JustinWritesCode.Enumerations" ExcludeAssets="ContentFiles" />
+        <PackageReference Include="System.ComponentModel" />
+    </ItemGroup>
+    <ItemGroup Label="Global Usings">
+        <Using Include="Microsoft.Build.Framework" />
+        <Using Include="Microsoft.Build.Execution" />
+        <Using Include="Microsoft.Build.Utilities.Task" Alias="MSBTask" />
+        <Using Include="System.Text.RegularExpressions" />
+        <Using Include="System.Text.Json" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <Include Include="**/*.cs" />
-    <Author Include="Justin Chase &lt;justin@justinwritescode.com&gt;" />
-  </ItemGroup>
+    <ItemGroup>
+      <EnsureHeaderInFile Include="**/*.cs" />
+      <Author Include="Justin Chase" Email="justin@justinwritescode.com" />
+    </ItemGroup>
 
-  <PropertyGroup>
-    <SearchRoot>$(MSBuildThisFileDirectory)</SearchRoot> 
-    <License>MIT</License>
-  </PropertyGroup>
-  
-  <UsingTask TaskName="EnsureFileHeaders" AssemblyFile="$(OutputPath)$(AssemblyName).dll" />
-
-  <Target Name="EnsureFileHeaders" DependsOnTargets="GitInfo;Build">
+    <PropertyGroup>
+      <SearchRoot>$(MSBuildThisFileDirectory)</SearchRoot>
+      <License>MIT</License>
+    </PropertyGroup>
     
-    <Error Code="JWC001" Condition="@(Include=>Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
-    <Error Code="JWC002" Condition="'$(SearchRoot)' == ''" Text="You must specify a root directory to start the search from." File="$(MSBuildThisFile)" />
-    <Error Code="JWC003" Condition="'$(License)' == ''" Text="You must specify a license.  It should be one of the following: $([System.String]::Join(', ', [JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders]::ValidLicenseValues))." File="$(MSBuildThisFile)" />
-    <Error Code="JWC004" Condition="@(Author->Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
+    <UsingTask TaskName="EnsureFileHeaders" AssemblyFile="$(OutputPath)$(AssemblyName).dll" />
 
-    <EnsureFileHeaders 
-      Include="@(Include)"
-      Exclude="@(Exclude)"
-      Authors="@(Author)"
-      SearchRoot="$(SearchRoot)"
-      License="$(License)" />
-  </Target>
+    <Target Name="EnsureFileHeaders">
+      
+      <Error Code="JWC001" Condition="@(Include=>Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
+      <Error Code="JWC002" Condition="'$(SearchRoot)' == ''" Text="You must specify a root directory to start the search from." File="$(MSBuildThisFile)" />
+      <Error Code="JWC003" Condition="'$(License)' == ''" Text="You must specify a license.  It should be one of the following: $([System.String]::Join(', ', [JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders]::ValidLicenseValues))." File="$(MSBuildThisFile)" />
+      <Error Code="JWC004" Condition="@(Author->Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
+
+      <EnsureFileHeaders 
+        Include="@(EnsureHeaderInFile)"
+        Exclude="@(Exclude)"
+        Authors="@(Author)"
+        License="$(License)" />
+    </Target>
 </Project>

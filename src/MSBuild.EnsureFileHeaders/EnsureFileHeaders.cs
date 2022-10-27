@@ -5,10 +5,10 @@ using System.Linq;
 
 public class EnsureFileHeaders : MSBTask
 {
+    // [Required]
+    // public string SearchRoot { get; set; } = string.Empty;
     [Required]
-    public string SearchRoot { get; set; } = string.Empty;
-    [Required]
-    public string License { get; set; }
+    public string License { get; set; } = SoftwareLicenseEnum.MIT.ToString();
     [Required]
     public ITaskItem[] Include { get; set; } = Array.Empty<ITaskItem>();
     public ITaskItem[] Exclude { get; set; } = Array.Empty<ITaskItem>();
@@ -25,10 +25,7 @@ public class EnsureFileHeaders : MSBTask
         var include = Include.Select(i => i.ItemSpec).ToList();
         var exclude = Exclude?.Select(i => i.ItemSpec).ToList() ?? new List<string>();
 
-        var files = new DirectoryInfo(SearchRoot).GetFiles("*.*", SearchOption.AllDirectories)
-            .Where(f => include.Any(i => f.FullName.EndsWith(i, StringComparison.OrdinalIgnoreCase)))
-            .Where(f => !exclude.Any(i => f.FullName.EndsWith(i, StringComparison.OrdinalIgnoreCase)))
-            .ToList();
+        var files = include.SelectMany(i => Directory.EnumerateFiles(i, "*.*", SearchOption.AllDirectories)).Where(f => !exclude.Contains(f)).ToList();
 
         var languageProviders = new List<FileHeaderLanguageProvider>
         {
@@ -39,11 +36,11 @@ public class EnsureFileHeaders : MSBTask
 
         foreach (var file in files)
         {
-            var languageProvider = languageProviders.FirstOrDefault(lp => lp.CanPutFileHeaderOnFile(file.FullName));
+            var languageProvider = languageProviders.FirstOrDefault(lp => lp.CanPutFileHeaderOnFile(file));
             if (languageProvider == null)
             {
-                Log.LogMessage($"No language provider found for file {file.FullName}");
-                changedFiles.Add(new TaskItem(file.FullName, new Dictionary<string, string>
+                Log.LogMessage($"No language provider found for file {file}");
+                changedFiles.Add(new TaskItem(file, new Dictionary<string, string>
                 {
                     { "Status", "Skipped" },
                     { "Reason", "No language provider found" }
@@ -51,8 +48,8 @@ public class EnsureFileHeaders : MSBTask
                 continue;
             }
 
-            languageProvider.WriteFileHeader(file.FullName, license.Content, Authors);
-            changedFiles.Add(new TaskItem(file.FullName, new Dictionary<string, string>
+            languageProvider.WriteFileHeader(file, license.Content, Authors);
+            changedFiles.Add(new TaskItem(file, new Dictionary<string, string>
             {
                 { "Status", "Updated" }
             }));

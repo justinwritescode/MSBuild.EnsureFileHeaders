@@ -1,8 +1,12 @@
 namespace JustinWritesCode.GitHub;
+using JustinWritesCode.Types.Enumerations;
 using JustinWritesCode.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
+class GenerateEnumerationClassAttribute : Attribute { }
+
+[GenerateEnumerationClass]
 public enum SoftwareLicenseEnum
 {
     [Display(Name = "GNU Affero General Public License v3.0", ShortName = "AGPL-3.0")]
@@ -70,6 +74,7 @@ public static class SoftwareLicenseEnumExtensions
         }
         else
         {
+            Console.WriteLine("URI: " + license.GetCustomAttribute<UriAttribute>().Uri);
             var licenseJson = await new System.Net.Http.HttpClient().GetStringAsync(license.GetCustomAttribute<UriAttribute>().Uri);
             var licenseObject = SoftwareLicense.FromJson(licenseJson);
             LicensesCache.Add(license, licenseObject);
