@@ -1,7 +1,12 @@
-namespace JustinWritesCode.MSBuild.EnsureFileHeaders;
+//  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//  <copyright file="EnsureFileHeaders.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
+//  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+namespace MSBuild.EnsureFileHeaders;
 using JustinWritesCode.GitHub;
 using Microsoft.Build.Utilities;
 using System.Linq;
+using Microsoft.Extensions.FileSystemGlobbing;
+using Microsoft.Extensions.FileSystemGlobbing.Abstractions;
 
 public class EnsureFileHeaders : MSBTask
 {
@@ -9,6 +14,7 @@ public class EnsureFileHeaders : MSBTask
     // public string SearchRoot { get; set; } = string.Empty;
     [Required]
     public string License { get; set; } = SoftwareLicenseEnum.MIT.ToString();
+    public string ProjectUrl { get; set; } = string.Empty;
     [Required]
     public ITaskItem[] Include { get; set; } = Array.Empty<ITaskItem>();
     public ITaskItem[] Exclude { get; set; } = Array.Empty<ITaskItem>();
@@ -22,10 +28,21 @@ public class EnsureFileHeaders : MSBTask
     {
         var changedFiles = new List<ITaskItem>();
         var license = ((SoftwareLicenseEnum)Enum.Parse(typeof(SoftwareLicenseEnum), License)).GetLicenseAsync().GetAwaiter().GetResult();
+        //Console.WriteLine(license.Name);
+        //var license = new SoftwareLicense();
         var include = Include.Select(i => i.ItemSpec).ToList();
         var exclude = Exclude?.Select(i => i.ItemSpec).ToList() ?? new List<string>();
+        var matcher = new Matcher();
+        matcher.AddIncludePatterns(include);
+        matcher.AddExcludePatterns(exclude);
+        var files = matcher.Execute(new DirectoryInfoWrapper(new DirectoryInfo(Environment.CurrentDirectory))).Files.Select(f => f.Path).ToList();
+        //var files = Directory.EnumerateFileSystemEntries() include.SelectMany(i => Directory.EnumerateFiles(i, "*.*", SearchOption.AllDirectories)).Where(f => !exclude.Contains(f)).ToList();
 
-        var files = include.SelectMany(i => Directory.EnumerateFiles(i, "*.*", SearchOption.AllDirectories)).Where(f => !exclude.Contains(f)).ToList();
+        Console.WriteLine($"Found {files.Count} files to check for headers.");
+        Console.WriteLine($"Environment.CurrentDirectory: {Environment.CurrentDirectory}.");
+        Console.WriteLine($"License: {license.Name}.");
+        Console.WriteLine($"Include: {string.Join(", ", include)}.");
+        Console.WriteLine($"Exclude: {string.Join(", ", exclude)}.");
 
         var languageProviders = new List<FileHeaderLanguageProvider>
         {
@@ -36,6 +53,7 @@ public class EnsureFileHeaders : MSBTask
 
         foreach (var file in files)
         {
+            Console.WriteLine(file);
             var languageProvider = languageProviders.FirstOrDefault(lp => lp.CanPutFileHeaderOnFile(file));
             if (languageProvider == null)
             {
@@ -48,7 +66,7 @@ public class EnsureFileHeaders : MSBTask
                 continue;
             }
 
-            languageProvider.WriteFileHeader(file, license.Content, Authors);
+            languageProvider.WriteFileHeader(file, license, Authors, ProjectUrl);
             changedFiles.Add(new TaskItem(file, new Dictionary<string, string>
             {
                 { "Status", "Updated" }
@@ -56,5 +74,36 @@ public class EnsureFileHeaders : MSBTask
         }
 
         return true;
+    }
+
+    private class DirectoryInfoWrapper : DirectoryInfoBase
+    {
+        private readonly DirectoryInfo _directoryInfo;
+
+        public DirectoryInfoWrapper(DirectoryInfo directoryInfo)
+        {
+            _directoryInfo = directoryInfo;
+        }
+
+        public override DirectoryInfoBase ParentDirectory => new DirectoryInfoWrapper(_directoryInfo.Parent);
+
+        public override string FullName => _directoryInfo.FullName;
+
+        public override string Name => _directoryInfo.Name;
+
+        public override IEnumerable<FileSystemInfoBase> EnumerateFileSystemInfos()
+        {
+            return _directoryInfo.EnumerateFileSystemInfos().Select(f => f is DirectoryInfo d ? (FileSystemInfoBase)new DirectoryInfoWrapper(d) : new FileInfoWrapper((FileInfo)f));
+        }
+
+        public override DirectoryInfoBase GetDirectory(string path)
+        {
+            return new DirectoryInfoWrapper(_directoryInfo.GetDirectories(path).Single());
+        }
+
+        public override FileInfoBase GetFile(string path)
+        {
+            return new FileInfoWrapper(_directoryInfo.GetFiles(path).Single());
+        }
     }
 }

@@ -1,4 +1,6 @@
-namespace JustinWritesCode.MSBuild.EnsureFileHeaders;
+//  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//  <copyright file="FileHeaderFormat.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
+//  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 public enum FileHeaderFormat
 {
     Short,

@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1A340C",
+        "titleBar.activeBackground": "#244811",
+        "titleBar.activeForeground": "#F4FCF0"
+    },
+    "cSpell.words": [
+        "Globbing"
+    ]
+}

@@ -1,23 +1,27 @@
+//  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//  <copyright file="YamlFileHeaderProvider.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
+//  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 using System.Text;
 
-namespace JustinWritesCode.MSBuild.EnsureFileHeaders;
+namespace MSBuild.EnsureFileHeaders;
+using JustinWritesCode.GitHub;
 
 public class YamlFileHeaderProvider : FileHeaderLanguageProvider
 {
     public override string[] Extensions => new[] { ".yml", ".yaml" };
-    public override void WriteFileHeader(string filePath, string license, ITaskItem[] authors, FileHeaderFormat format = FileHeaderFormat.Short)
+    public override void WriteFileHeader(string filePath, SoftwareLicense license, ITaskItem[] authors, string projectUrl, FileHeaderFormat format = FileHeaderFormat.Short)
     {
         if (format == FileHeaderFormat.Short)
         {
-            WriteShortFileHeader(filePath, license, authors);
+            WriteShortFileHeader(filePath, license, authors, projectUrl);
         }
         else
         {
-            WriteLongFileHeader(filePath, license, authors);
+            WriteLongFileHeader(filePath, license, authors, projectUrl);
         }
     }
 
-    private void WriteLongFileHeader(string filePath, string license, ITaskItem[] authors)
+    private void WriteLongFileHeader(string filePath, SoftwareLicense license, ITaskItem[] authors, string projectUrl)
     {
         var fileContents = File.ReadAllText(filePath);
         var fileHeader = new StringBuilder();
@@ -39,20 +43,20 @@ public class YamlFileHeaderProvider : FileHeaderLanguageProvider
         fileHeader.AppendLine("#    ");
         fileHeader.AppendLine($"#    Copyright © {DateTime.Now.Year} {string.Join(", ", authors.Select(a => a.ItemSpec))}, All rights reserved.");
         fileHeader.AppendLine("#    ");
-        fileHeader.AppendLine($"#    {Regex.Replace(license, "^", "^# ")}");
+        fileHeader.AppendLine($"#    {Regex.Replace(license.Content, "^", "^#    ")}");
         fileHeader.AppendLine("#    ");
         fileContents = Regex.Replace(@"(^#    .*){2,}", fileContents, ""); // Remove existing file headers
         fileContents = fileHeader.ToString() + fileContents;
         File.WriteAllText(filePath, fileContents);
     }
-    private void WriteShortFileHeader(string filePath, string license, ITaskItem[] authors)
+    private void WriteShortFileHeader(string filePath, SoftwareLicense license, ITaskItem[] authors, string projectUrl)
     {
-        var fileHeaderContent = $"#   <copyright file=\"${Path.GetFileName(filePath)}\"> ©{DateTime.Now.Year} {authors.Select(author => $"{author.ItemSpec} <{(author.GetMetadata("Email"))}>")} (https://docs.justinwritescode.com) under MIT License. See https://opensource.org/licenses/MIT </copyright>";
-        var fileHeader = $@"#   {new string('-', fileHeaderContent.Length - 4)}{Environment.NewLine}{fileHeaderContent}{Environment.NewLine}##{new string('-', fileHeaderContent.Length - 4)}
+        var fileHeaderContent = $"#   <copyright file=\"${Path.GetFileName(filePath)}\"> ©{DateTime.Now.Year} {authors.Select(author => $"{author.ItemSpec} <{(author.GetMetadata("Email"))}>")} under {license.Name}. See {license.Url} </copyright>";
+        var fileHeader = $@"#   {new string('#', fileHeaderContent.Length - 4)}{Environment.NewLine}{fileHeaderContent}{Environment.NewLine}#   {new string('#', fileHeaderContent.Length - 4)}
  ";
 
         var fileContents = File.ReadAllText(filePath);
-        fileContents = Regex.Replace(@"(^#   \-+\n.*\n#   \-+\n", fileContents, ""); // Remove existing file headers
+        fileContents = Regex.Replace(fileContents, @"^#   \-+\n.*\n#   \-+\n", ""); // Remove existing file headers
         fileContents = fileHeader.ToString() + fileContents;
         File.WriteAllText(filePath, fileContents);
     }

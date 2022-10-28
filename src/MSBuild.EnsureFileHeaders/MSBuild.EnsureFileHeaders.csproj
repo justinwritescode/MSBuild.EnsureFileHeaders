@@ -4,17 +4,20 @@
       <EnableGlobalCodeGenerators>false</EnableGlobalCodeGenerators>
       <AssemblyName>$(MSBuildProjectName)</AssemblyName>
       <PackageId>$(MSBuildProjectName)</PackageId>
+      <RootNamespace>$(MSBuildProjectName)</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.Build.Utilities.Core" />
         <PackageReference Include="Microsoft.Build" />
         <PackageReference Include="System.Text.Json" />
         <PackageReference Include="System.Xml.XDocument" />
-        <PackageReference Include="JustinWritesCode.ComponentModel" IncludeAssets="Compile" />
+        <PackageReference Include="JustinWritesCode.ComponentModel" />
         <PackageReference Include="System.ComponentModel.Annotations" />
-        <PackageReference Include="JustinWritesCode.Enumerations.CodeGeneration" PrivateAssets="All" IncludeAssets="Analyzers" />
-        <PackageReference Include="JustinWritesCode.Enumerations" ExcludeAssets="ContentFiles" />
+        <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" />
+        <!-- <PackageReference Include="JustinWritesCode.Enumerations.CodeGeneration" PrivateAssets="All" IncludeAssets="Analyzers" /> -->
+        <!-- <PackageReference Include="JustinWritesCode.Enumerations" ExcludeAssets="ContentFiles" /> -->
         <PackageReference Include="System.ComponentModel" />
+        <PackageReference Include="GoLive.Generator.StronglyTypedEmbeddedResources" PrivateAssets="All" IncludeAssets="Analyzers" />
     </ItemGroup>
     <ItemGroup Label="Global Usings">
         <Using Include="Microsoft.Build.Framework" />
@@ -26,9 +29,48 @@
 
     <ItemGroup>
       <EnsureHeaderInFile Include="**/*.cs" />
-      <Author Include="Justin Chase" Email="justin@justinwritescode.com" />
+      <Author Include="Justin Chase" Email="justin@justinwritescode.com" Visible="false" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Licenses\agpl-3.0.json" />
+      <None Remove="Licenses\unlicense.json" />
+      <None Remove="Licenses\bsd-3-clause.json" />
+      <None Remove="Licenses\lgpl-2.1.json" />
+      <None Remove="Licenses\gpl-3.0.json" />
+      <None Remove="Licenses\cc0-1.0.json" />
+      <None Remove="Licenses\apache2.0.json" />
+      <None Remove="Licenses\bsl-1.0.json" />
+      <None Remove="Licenses\bsd-2-clause.json" />
+      <None Remove="Licenses\epl-2.0.json" />
+      <None Remove="Licenses\mit.json" />
+      <None Remove="Licenses\mpl-2.0.json" />
+      <None Remove="Licenses\gpl-2.0.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="Licenses/agpl-3.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/unlicense.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/bsd-3-clause.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/lgpl-2.1.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/gpl-3.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/cc0-1.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/apache2.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/bsl-1.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/bsd-2-clause.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/epl-2.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/mit.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/mpl-2.0.json" DefaultPackFolder="none" BuildAction="None" />
+      <EmbeddedResource Include="Licenses/gpl-2.0.json" DefaultPackFolder="none" BuildAction="None" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Licenses\Licenses.resx">
+        <DefaultPackFolder></DefaultPackFolder>
+        <BuildAction></BuildAction>
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Licenses.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
     <PropertyGroup>
       <SearchRoot>$(MSBuildThisFileDirectory)</SearchRoot>
       <License>MIT</License>
@@ -36,17 +78,17 @@
     
     <UsingTask TaskName="EnsureFileHeaders" AssemblyFile="$(OutputPath)$(AssemblyName).dll" />
 
-    <Target Name="EnsureFileHeaders">
+    <ItemGroup>
+      <Include Include="**/*.cs" />
+    </ItemGroup>
+
+    <Target Name="EnsureFileHeaders" DependsOnTargets="SetPackageProjectUrl">
       
-      <Error Code="JWC001" Condition="@(Include=>Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
+      <Error Code="JWC001" Condition="@(EnsureHeaderInFile-&gt;Count()) == 0" Text="You must specify at least one file to include in the operation." File="$(MSBuildThisFile)" />
       <Error Code="JWC002" Condition="'$(SearchRoot)' == ''" Text="You must specify a root directory to start the search from." File="$(MSBuildThisFile)" />
       <Error Code="JWC003" Condition="'$(License)' == ''" Text="You must specify a license.  It should be one of the following: $([System.String]::Join(', ', [JustinWritesCode.MSBuild.EnsureFileHeaders.EnsureFileHeaders]::ValidLicenseValues))." File="$(MSBuildThisFile)" />
-      <Error Code="JWC004" Condition="@(Author->Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
+      <Error Code="JWC004" Condition="@(Author-&gt;Count()) == 0" Text="You must specify at least one author to take credit for this shitshow!" File="$(MSBuildThisFile)" />
 
-      <EnsureFileHeaders 
-        Include="@(EnsureHeaderInFile)"
-        Exclude="@(Exclude)"
-        Authors="@(Author)"
-        License="$(License)" />
+      <EnsureFileHeaders Include="@(EnsureHeaderInFile)" Exclude="@(Exclude)" Authors="@(Author->Distinct())" License="$(License)" ProjectUrl="$(PackageProjectUrl)" />
     </Target>
 </Project>

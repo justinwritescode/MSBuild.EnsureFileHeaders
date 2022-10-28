@@ -1,12 +1,15 @@
+//  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//  <copyright file="SoftwareLicenseEnum.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
+//  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 namespace JustinWritesCode.GitHub;
-using JustinWritesCode.Types.Enumerations;
+// using JustinWritesCode.Enumerations;
 using JustinWritesCode.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-class GenerateEnumerationClassAttribute : Attribute { }
+// class GenerateEnumerationClassAttribute : Attribute { }
 
-[GenerateEnumerationClass]
+// [GenerateEnumerationClass]
 public enum SoftwareLicenseEnum
 {
     [Display(Name = "GNU Affero General Public License v3.0", ShortName = "AGPL-3.0")]
@@ -74,10 +77,19 @@ public static class SoftwareLicenseEnumExtensions
         }
         else
         {
-            Console.WriteLine("URI: " + license.GetCustomAttribute<UriAttribute>().Uri);
-            var licenseJson = await new System.Net.Http.HttpClient().GetStringAsync(license.GetCustomAttribute<UriAttribute>().Uri);
+
+            var resources = typeof(SoftwareLicenseEnum).Assembly.GetManifestResourceNames();
+            // Console.WriteLine(string.Join(Environment.NewLine, resources));
+            //var licenseJsonResponse = await new System.Net.Http.HttpClient().GetAsync(license.GetCustomAttribute<UriAttribute>().Uri);
+            var licenseInfo = typeof(SoftwareLicenseEnum).Assembly.GetManifestResourceInfo("MSBuild.EnsureFileHeaders.Licenses." + license.GetCustomAttribute<DisplayAttribute>().ShortName.ToLower() + ".json"); //await licenseJsonResponse.Content.ReadAsStringAsync();
+            // Console.WriteLine("LicenseInfo.filename: " + licenseInfo.ResourceLocation);
+            var licenseJsonStream = typeof(SoftwareLicenseEnum).Assembly.GetManifestResourceStream("MSBuild.EnsureFileHeaders.Licenses." + license.GetCustomAttribute<DisplayAttribute>().ShortName.ToLower() + ".json"); //await licenseJsonResponse.Content.ReadAsStringAsync();
+            // Console.WriteLine("licenseJsonStream?.Length: " + licenseJsonStream?.Length);
+            var licenseJson = new StreamReader(licenseJsonStream).ReadToEnd();
+            // Console.WriteLine("License JSON:" + licenseJson);
             var licenseObject = SoftwareLicense.FromJson(licenseJson);
-            LicensesCache.Add(license, licenseObject);
+            //LicensesCache.Add(license, licenseObject);
+            //var licenseObject = new SoftwareLicense();
             return licenseObject;
         }
     }
