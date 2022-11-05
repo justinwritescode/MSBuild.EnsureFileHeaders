@@ -1,3 +1,15 @@
+<!--
+ MSBuild.EnsureFileHeaders.csproj
+ 
+   Created: 2022-10-27-04:38:53
+   Modified: 2022-10-31-02:16:26
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
       <TargetFramework>netstandard2.0</TargetFramework>
@@ -33,21 +45,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Remove="Licenses\agpl-3.0.json" />
-      <None Remove="Licenses\unlicense.json" />
-      <None Remove="Licenses\bsd-3-clause.json" />
-      <None Remove="Licenses\lgpl-2.1.json" />
-      <None Remove="Licenses\gpl-3.0.json" />
-      <None Remove="Licenses\cc0-1.0.json" />
-      <None Remove="Licenses\apache2.0.json" />
-      <None Remove="Licenses\bsl-1.0.json" />
-      <None Remove="Licenses\bsd-2-clause.json" />
-      <None Remove="Licenses\epl-2.0.json" />
-      <None Remove="Licenses\mit.json" />
-      <None Remove="Licenses\mpl-2.0.json" />
-      <None Remove="Licenses\gpl-2.0.json" />
-    </ItemGroup>
-    <ItemGroup>
       <EmbeddedResource Include="Licenses/agpl-3.0.json" DefaultPackFolder="none" BuildAction="None" />
       <EmbeddedResource Include="Licenses/unlicense.json" DefaultPackFolder="none" BuildAction="None" />
       <EmbeddedResource Include="Licenses/bsd-3-clause.json" DefaultPackFolder="none" BuildAction="None" />
@@ -61,6 +58,17 @@
       <EmbeddedResource Include="Licenses/mit.json" DefaultPackFolder="none" BuildAction="None" />
       <EmbeddedResource Include="Licenses/mpl-2.0.json" DefaultPackFolder="none" BuildAction="None" />
       <EmbeddedResource Include="Licenses/gpl-2.0.json" DefaultPackFolder="none" BuildAction="None" />
+    </ItemGroup>
+      
+    <ItemGroup Condition="'$(Configuration)' == 'Local'">
+      <ProjectReference Include="../../../../../Types/src/Core/ComponentModel/JustinWritesCode.ComponentModel.csproj" />
+      <ProjectReference Include="../../../../../Types/src/Enumerations/Enumeration/JustinWritesCode.Enumerations.Enumeration.csproj" />
+      <ProjectReference Include="../../../../../Types/src/Enumerations/CodeGeneration/JustinWritesCode.Enumerations.CodeGeneration.csproj" TreatAsPackageReference="true" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    </ItemGroup>
+    <ItemGroup Condition="'$(Configuration)' != 'Local'">
+      <PackageReference Include="JustinWritesCode.ComponentModel" />
+      <PackageReference Include="JustinWritesCode.Enumerations.Enumeration" />
+      <PackageReference Include="JustinWritesCode.Enumerations.CodeGeneration" IncludeAssets="Analyzers" PrivateAssets="All" />
     </ItemGroup>
 
     <ItemGroup>

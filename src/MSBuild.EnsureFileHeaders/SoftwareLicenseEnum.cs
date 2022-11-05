@@ -1,6 +1,14 @@
-//  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//  <copyright file="SoftwareLicenseEnum.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
-//  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 
+// SoftwareLicenseEnum.cs
+// 
+//   Created: 2022-10-27-02:35:36
+//   Modified: 2022-10-31-02:17:26
+// 
+//   Author: Justin Chase <justin@justinwritescode.com>
+//   
+//   Copyright © 2022 Justin Chase, All Rights Reserved
+//      License: MIT (https://opensource.org/licenses/MIT)
+// 
 namespace JustinWritesCode.GitHub;
 // using JustinWritesCode.Enumerations;
 using JustinWritesCode.ComponentModel;
@@ -9,7 +17,7 @@ using System.Reflection;
 
 // class GenerateEnumerationClassAttribute : Attribute { }
 
-// [GenerateEnumerationClass]
+[GenerateEnumerationClass]
 public enum SoftwareLicenseEnum
 {
     [Display(Name = "GNU Affero General Public License v3.0", ShortName = "AGPL-3.0")]

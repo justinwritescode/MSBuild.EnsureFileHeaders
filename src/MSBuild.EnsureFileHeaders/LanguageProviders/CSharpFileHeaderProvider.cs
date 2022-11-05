@@ -9,6 +9,9 @@ using JustinWritesCode.GitHub;
 
 public class CSharpFileHeaderProvider : FileHeaderLanguageProvider
 {
+    public override string FirstLineCommentPrefix => "//  ";
+    public override string CommentPrefix => "//  ";
+    public override string LastLineCommentPrefix => "//  ";
     public override string[] Extensions => new[] { ".cs" };
     public override void WriteFileHeader(string filePath, SoftwareLicense license, ITaskItem[] authors, string projectUrl, FileHeaderFormat format = FileHeaderFormat.Short)
     {

@@ -1,6 +1,10 @@
-//  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//  <copyright file="EnsureFileHeaders.cs" year="©2022" authors="Justin Chase <justin@justinwritescode.com>" projectUrl="https://docs.justinwritescode.com/MSBuild.EnsureFileHeaders" license="MIT License" licenseUrl="https://api.github.com/licenses/mit" />
-//  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+ * <file name="EnsureFileHeaders.cs" created="Thursday, 27th October 2022 5:35:36 am" modified="<<filemodified('dddd, Do MMMM YYYY h:mm:ss a')>>">
+ *   <author name="Justin Chase" email="justin@justinwritescode.com" />
+ *   <copyright year="projectCreationYear-2022" copyrightHolder="JustinWritesCode" license="<<license>>" />
+ * </file>
+ */
+
 namespace MSBuild.EnsureFileHeaders;
 using JustinWritesCode.GitHub;
 using Microsoft.Build.Utilities;
