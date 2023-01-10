@@ -5,7 +5,7 @@
   "url": "https://api.github.com/licenses/cc0-1.0",
   "node_id": "MDc6TGljZW5zZTY=",
   "html_url": "http://choosealicense.com/licenses/cc0-1.0/",
-  "description": "The <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">Creative Commons CC0 Public Domain Dedication</a> waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.",
+  "description": "The <a href=\"https://creativecommons.org/publicPrimitives/zero/1.0/\">Creative Commons CC0 Public Domain Dedication</a> waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.",
   "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
   "permissions": [
     "commercial-use",
@@ -13,9 +13,7 @@
     "distribution",
     "private-use"
   ],
-  "conditions": [
-
-  ],
+  "conditions": [],
   "limitations": [
     "liability",
     "trademark-use",
